@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Chroma DB
+backend/chroma_db/
+backend/uploads/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Build folders
+frontend/dist/
+dist/
+build/
